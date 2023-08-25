@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap-grid.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="img/vecteezy_hyperspace-jump-through-the-stars-to-a-distant_7515492_870.mp4"  type="video/mp4">
+    </video>
+    <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+    <label for="menu-icon"></label>
+    <nav class="nav"> 		
+        <ul class="pt-5">
+            <li><a href="main.html">home</a></li>
+  			<li><a href="characters.html">Characters</a></li>
+  			<li><a href="starships.html">Spaceships</a></li>
+        </ul>
+    </nav>
+  <div class="logo">
+    <a href="main.html">
+        <img src="img/logo_hr.png" class="logo_img" alt="logo">
+    </a>
+  </div>
+  <div class="info opening-animation">
+    <main>
+        <div class="title">planets</div>
+        <table>
+            <!-- <div id="loading-animation" class="loading-animation"></div> -->
+            <tbody id="cards-container">
+
+                
+            </tbody>
+        </table>
+        <div class="loading-div">
+            <div id="loading-animation" class="lds-ellipsis loading-animation"><div></div><div></div><div></div><div></div></div>
+        </div>
+
+    </main>
+    <div id="pagination-container">
+        <button id="prev-btn" class="btn" disabled>Previous</button>
+        <button id="next-btn" class="btn">Next</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 Star Wars Info. All rights reserved.</p>
+        <div class="div-footer">
+            <nav class="nav-footer">
+                <a href="https://twitter.com/starwars" class='nav2img'>
+                    <img class='nav2img' src="icons/twitter-128.png" alt="twitter">
+                </a>
+                <a href="https://www.facebook.com/StarWars/" class='nav2img'>
+                    <img class='nav2img' src="icons/facebook-128.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/starwars/" class='nav2img'>
+                    <img class='nav2img' src="icons/instagram-2-128.png" alt="instagram">
+                </a>
+                <a href="https://www.youtube.com/@StarWars" class='nav2img'>
+                    <img class='nav2img' src="icons/youtube-128.png" alt="youtube">
+                </a>
+                <a href="https://www.reddit.com/r/starwarsmemes/" class='nav2img'>
+                    <img class='nav2img' src="icons/gmail-128.png" alt="gmail">
+                </a>
+            </nav>
+        </div>
+    </footer>
+  </div>
+
+    
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="js/planets_js.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
